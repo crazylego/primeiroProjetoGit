@@ -4,5 +4,6 @@ def fatorial(num):
 	else:
 		return num * fatorial(num - 1)
 
-x = 4
-print(fatorial(x))
+def combinacao(sub,num):
+	return fatorial(num)/(fatorial(p)*fatorial(num - sub))
+
